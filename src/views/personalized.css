@@ -1,0 +1,113 @@
+.personalized-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.personalized-text {
+  top: 196px;
+  left: 131px;
+  width: 961px;
+  position: absolute;
+  font-size: 60px;
+  align-self: center;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.personalized-text1 {
+  color: #ff0000;
+}
+.personalized-text3 {
+  top: 299px;
+  left: 133px;
+  width: 937px;
+  height: 52px;
+  position: absolute;
+  font-size: 25px;
+  align-self: center;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.personalized-select {
+  top: 490px;
+  flex: 10;
+  left: 132px;
+  height: var(--dl-size-size-small);
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.personalized-select1 {
+  top: 488px;
+  flex: 10;
+  left: 326px;
+  height: var(--dl-size-size-small);
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.personalized-select2 {
+  top: 488px;
+  flex: 10;
+  left: 590px;
+  height: var(--dl-size-size-small);
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.personalized-text4 {
+  top: 448px;
+  left: 135px;
+  position: absolute;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.personalized-text5 {
+  top: 450px;
+  left: 326px;
+  position: absolute;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.personalized-text6 {
+  top: 449px;
+  left: 592px;
+  position: absolute;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.personalized-text7 {
+  top: 386px;
+  left: 133px;
+  position: absolute;
+  font-size: 20px;
+}
+@media(max-width: 991px) {
+  .personalized-text {
+    text-align: center;
+  }
+  .personalized-text3 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .personalized-text {
+    font-size: 32px;
+    text-align: center;
+  }
+  .personalized-text3 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
